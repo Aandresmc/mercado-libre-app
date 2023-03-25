@@ -5,6 +5,7 @@ import { User } from '../../interfaces'
 import { sampleUserData } from '../../utils/sample-data'
 import Layout from '../../components/Layout'
 import List from '../../components/List'
+import { Error } from "@/components/error/error"
 
 type Props = {
   items: User[]
@@ -12,6 +13,7 @@ type Props = {
 
 const WithStaticProps = ({ items }: Props) => (
   <Layout title="Users List | Next.js + TypeScript Example">
+    <Error error={'example todo'} />
     <h1>Users List</h1>
     <p>
       Example fetching data from inside <code>getStaticProps()</code>.
