@@ -1,0 +1,9 @@
+@use 'src/shared/styles/colors.module.scss' as *;
+
+.navbar {
+	background-color: $color__primary;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-inline: 2rem;
+}

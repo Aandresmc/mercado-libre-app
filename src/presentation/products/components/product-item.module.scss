@@ -1,0 +1,52 @@
+@use 'src/shared/styles/colors.module.scss' as *;
+
+.container {
+	display: flex;
+	align-items: center;
+	padding-inline: 4rem;
+	margin-block: 1rem;
+	img {
+		border-radius: 4px;
+		margin: 1rem;
+	}
+	max-width: 80rem;
+}
+
+.product_description {
+	h5 {
+		color: $color__gray--1;
+		font-size: 2rem;
+		padding-bottom: 1rem;
+	}
+	p {
+		max-width: 40rem;
+		font-size: 1.5rem;
+	}
+
+	.free_shipping {
+		margin-left: 0.5rem;
+		font-size: 1.5rem;
+		color: green;
+	}
+}
+
+.seller_zone {
+	padding-inline: 5rem;
+	padding-block: 2rem;
+	max-width: 80%;
+}
+
+@media screen and (max-width: 1142px) {
+	.container {
+		display: grid;
+	}
+}
+@media screen and (max-width: 1142px) {
+	.container {
+		display: grid;
+	}
+	.seller_zone {
+		padding-inline: 0rem;
+		padding-block: 1rem;
+	}
+}
