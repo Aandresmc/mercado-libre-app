@@ -5,15 +5,15 @@
 	padding-inline: 2rem;
 	padding-block: 4rem;
 	grid-gap: 1.5rem;
-	align-content: start;
+	align-content: flex-start;
 	max-width: 32rem;
 }
 
 .container_description {
 	padding-inline: 8rem;
 	padding-block: 4rem;
-	align-content: start;
-	max-width: 40%;
+	align-content: flex-start;
+	max-width: 68rem;
 
 	p {
 		padding-block: 1rem;
@@ -51,4 +51,15 @@
 .price_product {
 	font-size: 4rem;
 	color: $color__gray--1;
+}
+
+@media screen and (max-width: 1142px) {
+	.container_detail {
+		padding-block: 0rem;
+	}
+
+	.container_description {
+		padding-inline: 2rem;
+		max-width: 100%;
+	}
 }

@@ -2,6 +2,23 @@
 	display: flex;
 	padding-block: 2rem;
 	padding-inline: 10rem;
-    justify-content: start;
+	justify-content: flex-start;
 	grid-gap: 5rem;
+}
+
+.image_product {
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 768px) {
+	.container_product {
+		display: grid;
+		padding-inline: 0rem;
+		justify-content: center;
+	}
+	.image_product {
+		padding-inline: 0rem;
+		padding-block: 0rem;
+	}
 }
