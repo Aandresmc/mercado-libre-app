@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { ProductsLayout } from '@/shared/components/layouts/products.layout'
 import { ProductView } from './product.view'
 import { IProductDetail } from '@/domain/entities/iproduct-detail'
@@ -16,5 +16,5 @@ export const Product = ({ id }: Props) => {
 		})
 	}, [id])
 
-	return <ProductsLayout children={product && <ProductView product={product} />} />
+	return <ProductsLayout>{product && <ProductView product={product} />}</ProductsLayout>
 }

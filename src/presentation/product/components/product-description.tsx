@@ -1,7 +1,6 @@
+import React from 'react'
 import { IProductDetail } from '@/domain/entities/iproduct-detail'
-import { ProductButton } from './product-button'
 import styles from './product.module.scss'
-
 interface Props {
 	product: IProductDetail.Data
 }

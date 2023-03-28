@@ -1,5 +1,4 @@
-import { useEffect, useState, Suspense } from 'react'
-
+import React, { useEffect, useState } from 'react'
 import { ProductsLayout } from '@/shared/components/layouts/products.layout'
 import { ListProductsView } from './products.view'
 import { getProductsByQueryUseCase } from '../../domain/usecases/get-products-by-query.usecase'
@@ -18,5 +17,5 @@ export const ListProducts = ({ query }: Props) => {
 		})
 	}, [query])
 
-	return <ProductsLayout querySearch={query} children={products && <ListProductsView products={products} />} />
+	return <ProductsLayout querySearch={query}>{products && <ListProductsView products={products} />}</ProductsLayout>
 }

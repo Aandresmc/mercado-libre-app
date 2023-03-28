@@ -1,3 +1,4 @@
+import React from 'react'
 import { SearchProducts } from '@/presentation/search-products/search-products.container'
 import type { NextPage } from 'next'
 

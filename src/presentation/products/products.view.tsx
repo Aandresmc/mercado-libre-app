@@ -1,6 +1,6 @@
+import React from 'react'
 import { SearchProductEntity } from '@/domain/entities/isearch-products-entity'
 import { ProductItem } from './components/product-item'
-
 interface Props {
 	products: SearchProductEntity[]
 }

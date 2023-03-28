@@ -1,3 +1,3 @@
 export interface DescriptionProductEntity {
-    plain_text: string
-} 
+	plain_text: string
+}

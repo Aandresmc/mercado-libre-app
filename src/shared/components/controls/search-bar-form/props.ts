@@ -1,6 +1,6 @@
 export interface SearchBarFormProps {
-    onSubmit: (event: any) => void
-    query: string
-    onChange: (event: any) => void
-    errorText: string
+	onSubmit: (event: React.FormEvent<HTMLFormElement>) => void
+	query: string
+	onChange: (event: React.ChangeEvent<HTMLInputElement>) => void
+	errorText: string
 }

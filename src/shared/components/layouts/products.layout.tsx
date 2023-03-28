@@ -13,13 +13,13 @@ export const ProductsLayout = ({ children, querySearch }: Props) => {
 	const [query, setQuery] = useState<string>(querySearch || '')
 	const [errorText, setErrorText] = useState<string>('')
 
-	const onChange = (event: any) => {
+	const onChange = (event: React.ChangeEvent<HTMLInputElement>) => {
 		const title: string = event.target.value
 
 		setQuery(title)
 	}
 
-	const onSubmit = async (event: any) => {
+	const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
 		event.preventDefault()
 
 		try {
@@ -32,8 +32,8 @@ export const ProductsLayout = ({ children, querySearch }: Props) => {
 					console.log('error redirect', error)
 				}
 			}
-		} catch (error: any) {
-			setErrorText(error.message)
+		} catch (error) {
+			setErrorText((error as Error).message)
 		}
 	}
 

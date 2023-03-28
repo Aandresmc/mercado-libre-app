@@ -1,2 +1,2 @@
-export * from './search-bar-form';
-export * from './props';
+export * from './search-bar-form'
+export * from './props'
