@@ -58,10 +58,10 @@ exports[`ProductContainer Component should have name and price product 1`] = `
     >
       <img
         alt="image product product title"
+        class="image_product"
         data-nimg="1"
         decoding="async"
         height="680"
-        loading="lazy"
         src="/_next/image?url=http%3Afake-url-img&w=1920&q=75"
         srcset="/_next/image?url=http%3Afake-url-img&w=750&q=75 1x, /_next/image?url=http%3Afake-url-img&w=1920&q=75 2x"
         style="color: transparent;"
