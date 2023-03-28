@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductContainer Component should have name and price product 1`] = `
+<DocumentFragment>
+  <header>
+    <nav
+      class="navbar"
+    >
+      <a
+        href="/"
+      >
+        <img
+          alt="brand image"
+          data-nimg="1"
+          decoding="async"
+          height="50"
+          loading="lazy"
+          src="/_next/image?url=%2Fbrand.png&w=128&q=75"
+          srcset="/_next/image?url=%2Fbrand.png&w=64&q=75 1x, /_next/image?url=%2Fbrand.png&w=128&q=75 2x"
+          style="color: transparent;"
+          width="50"
+        />
+      </a>
+      <form
+        class="container"
+      >
+        <div
+          class="input-group"
+        >
+          <input
+            alt="search product"
+            class="form-control"
+            name="search"
+            placeholder="Nunca dejes de buscar"
+            required=""
+            type="text"
+            value=""
+          />
+          <div
+            class="input-group-append"
+          >
+            <button
+              class="btn btn-secondary"
+              type="submit"
+            >
+              <i
+                class="bi bi-search"
+              />
+            </button>
+          </div>
+        </div>
+      </form>
+    </nav>
+  </header>
+  <main>
+    <section
+      class="container_product"
+    >
+      <img
+        alt="image product product title"
+        data-nimg="1"
+        decoding="async"
+        height="680"
+        loading="lazy"
+        src="/_next/image?url=http%3Afake-url-img&w=1920&q=75"
+        srcset="/_next/image?url=http%3Afake-url-img&w=750&q=75 1x, /_next/image?url=http%3Afake-url-img&w=1920&q=75 2x"
+        style="color: transparent;"
+        title="image product"
+        width="680"
+      />
+      <div
+        class="container_detail"
+      >
+        <p>
+          Nuevo - 1 vendidos
+        </p>
+        <h1
+          class="title_product"
+        >
+          product title
+        </h1>
+        <h1
+          class="price_product"
+        >
+          $ 1000
+        </h1>
+        <button
+          class="btn"
+          data-testid="btn-buy"
+          type="button"
+        >
+          <span>
+            Comprar
+          </span>
+        </button>
+      </div>
+    </section>
+    <section>
+      <div
+        class="container_description"
+      >
+        <h1
+          class="title_product"
+        >
+          Descripcion
+        </h1>
+        <p>
+          description product
+        </p>
+      </div>
+    </section>
+  </main>
+</DocumentFragment>
+`;
+
+exports[`ProductContainer Component should mounted component 1`] = `
+<div>
+  <header>
+    <nav
+      class="navbar"
+    >
+      <a
+        href="/"
+      >
+        <img
+          alt="brand image"
+          data-nimg="1"
+          decoding="async"
+          height="50"
+          loading="lazy"
+          src="/_next/image?url=%2Fbrand.png&w=128&q=75"
+          srcset="/_next/image?url=%2Fbrand.png&w=64&q=75 1x, /_next/image?url=%2Fbrand.png&w=128&q=75 2x"
+          style="color: transparent;"
+          width="50"
+        />
+      </a>
+      <form
+        class="container"
+      >
+        <div
+          class="input-group"
+        >
+          <input
+            alt="search product"
+            class="form-control"
+            name="search"
+            placeholder="Nunca dejes de buscar"
+            required=""
+            type="text"
+            value=""
+          />
+          <div
+            class="input-group-append"
+          >
+            <button
+              class="btn btn-secondary"
+              type="submit"
+            >
+              <i
+                class="bi bi-search"
+              />
+            </button>
+          </div>
+        </div>
+      </form>
+    </nav>
+  </header>
+  <main />
+</div>
+`;

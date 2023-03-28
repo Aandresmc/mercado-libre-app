@@ -2,7 +2,6 @@ import { ISearchProducts } from '../domain/entities/isearch-products';
 import { IProductRepository } from './iproduct-repository';
 import { HttpClient } from '@/core/http-client';
 import { IProductDetail } from '@/domain/entities/iproduct-detail';
-import { ProductDetail } from '@/domain/entities/iproduct-detail-entity';
 import { DescriptionProductEntity } from '@/domain/entities/iproduct-description-entity';
 
 const LIMIT_RESULT = 4;

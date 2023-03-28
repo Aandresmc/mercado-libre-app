@@ -4,7 +4,7 @@ import { ProductView } from './product.view'
 import { IProductDetail } from '@/domain/entities/iproduct-detail'
 import { getProductByIdUseCase } from '@/domain/usecases/get-product-by-id.usecase'
 
-interface Props {
+export interface Props {
 	id: string
 }
 export const Product = ({ id }: Props) => {
