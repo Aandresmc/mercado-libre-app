@@ -79,11 +79,11 @@ exports[`ProductContainer Component should have name and price product 1`] = `
         >
           product title
         </h1>
-        <h1
+        <span
           class="price_product"
         >
           $ 1000
-        </h1>
+        </span>
         <button
           class="btn"
           data-testid="btn-buy"
@@ -99,11 +99,11 @@ exports[`ProductContainer Component should have name and price product 1`] = `
       <div
         class="container_description"
       >
-        <h1
+        <h3
           class="title_product"
         >
           Descripcion
-        </h1>
+        </h3>
         <p>
           description product
         </p>

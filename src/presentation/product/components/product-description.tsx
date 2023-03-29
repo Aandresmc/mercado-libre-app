@@ -8,7 +8,7 @@ interface Props {
 export const ProductDescription = ({ product }: Props) => {
 	return (
 		<div className={styles.container_description}>
-			<h1 className={styles.title_product}>Descripcion</h1>
+			<h3 className={styles.title_product}>Descripcion</h3>
 			<p>{product.plain_text}</p>
 		</div>
 	)

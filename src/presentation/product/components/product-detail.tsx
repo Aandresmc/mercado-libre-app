@@ -14,7 +14,7 @@ export const ProductDetail = ({ product }: Props) => {
 				{product.condition == 'new' ? 'Nuevo' : 'Buen estado'} - {product.sold_quantity} vendidos
 			</p>
 			<h1 className={styles.title_product}>{product.title}</h1>
-			<h1 className={styles.price_product}>$ {product.price}</h1>
+			<span className={styles.price_product}>$ {product.price}</span>
 			<ProductButton />
 		</div>
 	)
